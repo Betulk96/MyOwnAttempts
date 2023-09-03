@@ -24,6 +24,12 @@ public class SoruDenemeleri {
         System.out.println("Alan: " + alan);
 
 
+        int a=1563;
+        System.out.println(a % 10);//3
+        System.out.println(a % 100);//63
+        System.out.println(a % 1000);//563
+
+
 
     }
 }

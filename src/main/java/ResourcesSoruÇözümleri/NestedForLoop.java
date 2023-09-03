@@ -31,9 +31,9 @@ public class NestedForLoop {
               3 6 9
      */
         int sonuç=1;
-        for (int i =1; i <=b ; i++) {
-            for (int j = 1; j <=b ; j++) {//i kadar artmasını istediğimiz zaman i yazıyoruz.ama burada b kadar artsın istediğimiz için b yazdık
-                System.out.print((i * j) + "\t" );
+        for (int i =1; i <=b ; i++) {//i=satır j= sütun
+            for (int j = 1; j <=b ; j++) {//i kadar artmasını istediğimiz zaman i yazıyoruz.ama ilk satırda b kadar yazdırdın  istediğimiz için b yazdık-satırı dolduruyoruz
+                System.out.print((i * j) + " " );
             }
          System.out.println("");
     }
@@ -52,7 +52,6 @@ public class NestedForLoop {
             369
     bitişik yazar
          */
-
 
 
 
