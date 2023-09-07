@@ -39,7 +39,7 @@ Main Method aşağıdakiler için ifadeler içerir:
          3- Çalışanın toplam maaşının vergi ve ikramiye dikkate alınarak hesaplanması.
          4- Maaş artışından sonra çalışanın toplam maaşının hesaplanması (vergi ve ikramiyeyi dikkate almayın).
          5- Çalışana ait bilgilerin Çıktısı.
- Örnek:
+ Output:
          İsim: kemal
          Maaş: 2000.0
          Çalışma Saatleri: 45
