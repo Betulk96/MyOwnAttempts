@@ -1,4 +1,4 @@
-package JavaKaynakSoru;
+package JavaKaynakSoru.DevTeam2ATM;
 
 import java.util.Scanner;
 

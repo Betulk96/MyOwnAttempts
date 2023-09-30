@@ -1,4 +1,4 @@
-package ResourcesSoruÇözümleri;
+package ResourcesSoruCozumleri.If;
 
 import java.util.Scanner;
 

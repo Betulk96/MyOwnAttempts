@@ -1,4 +1,4 @@
-package ResourcesSoruÇözümleri;
+package ResourcesSoruCozumleri.Loop;
 
 import java.util.Scanner;
 
@@ -15,12 +15,12 @@ public class Loop {
             System.out.print(i+",");//10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,
         }
 
-        System.out.println("");
+        System.out.println(" ");
 //3-100'den başlayarak 50 dahil olan sayıları aralarında virgül olarak aynı satırda yazdırın.
         for (int i =100; i >49 ; i--) {
             System.out.print(i+",");
         }
-        System.out.println("");
+        System.out.println(" ");
 //4-Kullanıcıdan 100'den küçük bir tamsayı isteyiniz.1 den başlayarak girilen sayıya kadar 3'ün katları olan sayıları yazdırın.
         Scanner a=new Scanner(System.in);
         System.out.println("100'den küçük bir tam sayı giriniz.");
@@ -30,7 +30,7 @@ public class Loop {
            if (i%3==0)
             System.out.print(i+",");
         }
-        System.out.println("");
+        System.out.println(" ");
 //5-Kullanıcıdan 100'den küçük bir tamsayı isteyiniz.1 den başlayarak girilen sayıya kadar 3'ün veya 5'in  katları olan sayıları yazdırın.
 
         for (int i = 1; i <b ; i++) {
@@ -38,7 +38,7 @@ public class Loop {
                 System.out.print(i+",");
             }
         }
-        System.out.println("");
+        System.out.println(" ");
 //Kullanıcıdan 100'den küçük bir tamsayı isteyiniz.1 den başlayarak girilen sayıya  yazdırın.
         //Ancak. 3'ün katı ise "Java"
         //5'in katı ise "Güzeldir.
@@ -56,7 +56,25 @@ public class Loop {
             }
         }
 
+/*bu yöntem daha doğru sonuç verdi
+ System.out.println("Lütfen 100den küçük bir değer giriniz.");
+        int num2=scanner.nextInt();
 
+        if (num1>0 && num1<101){
+            for (int i = 1; i <=num2 ; i++) {
+
+                if (i % 3 ==0 && i % 5 == 0) {
+                    System.out.print(" 35Java Güzeldir, ");
+                }else if (i % 5 == 0) {
+                        System.out.print(" 5Güzeldir, ");
+                }else if (i % 3 == 0) {
+                    System.out.print(" 3Java, ");
+                } else  System.out.print(i + " , ");
+
+            }
+
+        }else System.out.println("belirtilen aralıkta değer giriniz.");
+ */
 
 
     }
